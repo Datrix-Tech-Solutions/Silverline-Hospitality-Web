@@ -1,0 +1,81 @@
+@extends('Layouts.Master')
+
+@section('content')
+<section class="video-section gap">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="300">
+                <div class="wait-a-minute">
+                    <h2>Wait a minute
+                        for delicious</h2>
+                    <p>Amet massa vitae tortor condimentum lacinia quis. Elit at imperdiet dui accumsan sit amet nulla facilisi. Lacus laoreet non curabitur gravida arcu ac tortor dignissim.</p>
+                    <h6>Interdum varius sit amet mattis.</h6>
+                    <ul class="paragraph">
+                        <li><i class="fa-solid fa-circle-check"></i>
+                            <h5>Interdum varius sit amet mattis;</h5>
+                        </li>
+                        <li><i class="fa-solid fa-circle-check"></i>
+                            <h5>Sed elementum tempus egestas sed sed;</h5>
+                        </li>
+                        <li><i class="fa-solid fa-circle-check"></i>
+                            <h5>Sit amet purus gravida quis blandit;</h5>
+                        </li>
+                        <li><i class="fa-solid fa-circle-check"></i>
+                            <h5>Feugiat pretium nibh ipsum consequat nisl vel pretium.</h5>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="400">
+                <div class="video-section-img">
+                    <img alt="elements" src="https://via.placeholder.com/560x560">
+                    <a data-fancybox="" href="https://www.youtube.com/watch?v=CKnGXZxK7zs"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-counters-section gap" style="background-image: url(/assets/img/background-1.png);">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12" data-aos="flip-up" data-aos-delay="200" data-aos-duration="300">
+                <div class="about-counters-img">
+                    <img alt="girl" src="https://via.placeholder.com/560x595">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12" data-aos="flip-up" data-aos-delay="300" data-aos-duration="400">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="counter-hading">
+                            <h2>Service shows good taste.</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="count-time">
+                            <h2 class="timer count-title count-number" data-to="976" data-speed="2000">976</h2>
+                            <p>Satisfied<br>
+                                Customer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6" data-aos="flip-up" data-aos-delay="300" data-aos-duration="400">
+                        <div class="count-time">
+                            <h2 class="timer count-title count-number" data-to="12" data-speed="2000">12</h2>
+                            <p>Best<br>
+                                Restaurants</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="count-time sp">
+                            <h2 class="timer count-title count-number" data-to="1" data-speed="2000">1</h2>
+                            <span>k+</span>
+                            <p>Food<br>
+                                Delivered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@endsection
