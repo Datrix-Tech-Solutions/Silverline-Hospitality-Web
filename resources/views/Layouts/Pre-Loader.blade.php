@@ -1,12 +1,11 @@
     <!-- loader start-->
     <div class="page-loader">
         <div class="wrapper">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
+            <div class="circle">
+                <img src="{{ asset('/assets/img/logo.png') }}" alt="">
+            </div>
+
+
             <span>Loading</span>
         </div>
     </div>

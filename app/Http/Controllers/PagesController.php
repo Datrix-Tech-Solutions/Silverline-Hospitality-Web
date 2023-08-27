@@ -15,4 +15,20 @@ class PagesController extends Controller
     {
         return view('Pages.About');
     }
+
+    public function contact(){
+        return view('Pages.Contact');
+    }
+
+    public function services(){
+        return view('Pages.Services');
+    }
+
+    public function team(){
+        return view('Pages.Team');
+    }
+
+    public function buy(){
+        return view('Pages.Food');
+    }
 }
